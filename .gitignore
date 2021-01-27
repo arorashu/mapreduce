@@ -1,4 +1,6 @@
 __pycache__/
 db.p
 data/txt/
+data/pdf
+articles.txt
 

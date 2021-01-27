@@ -14,7 +14,6 @@ import (
 // and the value is the file's contents. The return value should be a slice of
 // key/value pairs, each represented by a mapreduce.KeyValue.
 func mapF(document string, value string) (res []mapreduce.KeyValue) {
-	// todo: you have to write this function
 	var kvArr []mapreduce.KeyValue
   // split words according to this condition
 	wordsArray := strings.FieldsFunc(value, func(c rune) bool {

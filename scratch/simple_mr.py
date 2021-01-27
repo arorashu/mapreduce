@@ -4,13 +4,15 @@ using single map and reduce functions
 """
 
 import os
+import ray
 import re
 import time
 import wikipedia
 
 from utils import Config
 
-def map(words: list):
+def map(filename):
+  # read the file
   kv_list = []
   for word in words:
     kv_list.append((word, 1))
@@ -26,13 +28,9 @@ def reduce(kv: list):
   return tot
 
 
-def get_wiki_articles():
-  return wikipedia.summary("wikipedia")
-
 
 if __name__ == "__main__":
   
-  #words = ["test", "bla", "kaka", "jshdkj", "test", "test", "test", "bla"]
   words = []
 
   summary = get_wiki_articles()
