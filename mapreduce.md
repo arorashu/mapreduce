@@ -74,6 +74,8 @@ The input keys and values are drawn from a different domain than the output keys
 
 ## Implementation
 
+A Go code library can be found here: https://github.com/arorashu/mapreduce
 
 
+Thanks for reading. Let me know what you think by connecting on twitter [@shubham_arora_0](https://twitter.com/shubham_arora_0/)
 

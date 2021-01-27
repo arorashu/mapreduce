@@ -86,5 +86,5 @@ For a jobName = `wcjob`, the output will be stored in the filename = `mrtmp.wcjo
 
 ## References: 
 
-1. MapReduce [paper] (https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-2. BU CS651 starter [code] (https://cs-people.bu.edu/liagos/451/labs/lab-1.html)
+1. MapReduce [paper](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+2. BU CS651 starter [code](https://cs-people.bu.edu/liagos/451/labs/lab-1.html)
